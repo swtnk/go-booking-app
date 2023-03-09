@@ -6,3 +6,6 @@
 ```sh
 $ go mod init <project-name>
 ```
+
+## Start Coding:
+`Create file main.go in root directory of the project.`
