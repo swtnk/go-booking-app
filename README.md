@@ -20,3 +20,23 @@ $ go mod init <project-name>
 
     }
     ```
+* Data Containers: Variables and Constants
+    ```
+    ...
+    <container_type> <container_name> <data_type> // It is necessary to specify data type in case of declaration only.
+    <container_type> <container_name> = data // It is optional to specify data type in case of declaration and data assignment to it but in some case it is good practice to specify data types.
+    <container_name> := data // In this way data types can not be defined in code.
+    ...
+    ```
+    ```go
+    package main
+
+    import "fmt"
+
+    func main() {
+        var buyerName string
+        var conferenceName = "Go Conference"
+        const totalTickets uint = 100
+        conferenceName  := "Go Conference"
+    }
+    ```
