@@ -51,3 +51,51 @@ $ go mod init <project-name>
         ...
     }
     ```
+
+* Conditional: if
+    ```go
+    ...
+
+    ... {
+
+        if <condition> { // only if
+            ...
+        }
+
+        if <condition> { // if-else
+            ...
+        } else {
+            ...
+        }
+
+        if <condition_1> { // else-if
+            ...
+        } else if <condition_2> {
+            ...
+        } else {
+            ...
+        }
+        
+    }
+    ```
+
+* Loop: for-loop
+    ```go
+    ...
+
+    ... {
+
+        for { // indefinite loop
+            ...
+        }
+
+        for <condition> { // conditional loop
+            ...
+        }
+
+        for _, element := range <any_iterable> { // for-each loop
+
+        }
+
+    }
+    ```
