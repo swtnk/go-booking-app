@@ -40,3 +40,14 @@ $ go mod init <project-name>
         conferenceName  := "Go Conference"
     }
     ```
+* Get input from user usinf `Scan`:
+    ```go
+    ...
+
+    ... {
+        ...
+        var firstName string
+        fmt.Scan(&firstName)
+        ...
+    }
+    ```
